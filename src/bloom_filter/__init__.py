@@ -55,7 +55,7 @@ class BloomFilter:
         if i < 0 or i >= self.k:
             raise ValueError(
                 f"This bloom filter defines hash functions 0..{self.k - 1}. "
-                f"Attempted to compute {self.k}th hash function."
+                f"Attempted to compute {i}th hash function."
             )
 
         h1 = hash(x) % self.m
