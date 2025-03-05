@@ -1,0 +1,18 @@
+[project]
+name = "bloom-filter"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Mike Lee Williams", email = "mike@mike.place" }
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
